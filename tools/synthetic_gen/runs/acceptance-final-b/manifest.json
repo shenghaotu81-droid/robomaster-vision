@@ -1,0 +1,64 @@
+{
+  "actual_cases": 5,
+  "algorithm_validation": "NOT_RUN",
+  "approval_record": null,
+  "completion_status": "COMPLETE",
+  "config_hash": "18f8a8e22322ce3a3d66b144918c91c8c81752c2c613357ccddec77ec2de9d50",
+  "environment": {
+    "build_type": "Release",
+    "cmake_version": "3.28.3",
+    "code_hash": "b91eb9162794464a8e0a4091e0f04ed78503e9ba1a377d599c6c0b3c01dc368a",
+    "compiler": "GNU 13.3.0",
+    "cxx_standard": 17,
+    "generator_version": "1.0.0",
+    "nlohmann_json": "3.11.3",
+    "opencv": "4.6.0",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024"
+  },
+  "expected_cases": 5,
+  "family_counts": {
+    "selftest": 5
+  },
+  "file_hashes": {
+    "effective_config.json": "8ef210e4cc5918ecbdc39fb25cca8b613674347363dd2ebb2b349610ad3d78be",
+    "index.csv": "3d81dd801c2bcaab0cf908578924f918d772a73887af92b3075bda9092cc2ac3",
+    "observation_template.csv": "7fc2ebfa5011c4b08b4ccda8ed8d9731d21884ac09afca930961236542233054",
+    "truth.jsonl": "a0fcb4124dfd338be004338cbcc2cf831202852494610d94f0d3f61fc466bf3f"
+  },
+  "invalid_cases": 1,
+  "mode": "selftest",
+  "schema_version": 1,
+  "seed": 0,
+  "selected_case_id": null,
+  "sources": {
+    "schema_version": 1,
+    "sources": [
+      {
+        "original_filename": "model_coordinates.md",
+        "path": "inputs/model_coordinates.md",
+        "sha256": "70b85217f501dadf032fcce2bc289548c3911af4facef6383de802f44bb7774a",
+        "status": "PENDING_USER_CONFIRMATION"
+      },
+      {
+        "original_filename": "error_budget.md",
+        "path": "inputs/error_budget.md",
+        "sha256": "dcf7c983a11a39f8f258299eba145fbc3d2b7317d30d5bb56a58eaec6d3e1a1a",
+        "status": "PROPOSED_NOT_APPROVED"
+      },
+      {
+        "alias": "2.md",
+        "original_filename": "板块2_几何原语_完整冻结文档.md",
+        "path": "inputs/2.md",
+        "sha256": "dddc29831b73505bdfbc89402b7b8f51842fcf16e79f61981a0a43d2af229b60",
+        "status": "FROZEN_METHOD_PENDING_MODEL_AND_BUDGET"
+      },
+      {
+        "original_filename": "synthetic_gen_spec_Oyster_reviewed.md",
+        "path": "inputs/synthetic_gen_spec_Oyster_reviewed.md",
+        "sha256": "a9785a9dacd021ab74ba0a55258bac07d795b7d008e97a947daaa4ccf6e28191",
+        "status": "TOOL_IMPLEMENTATION_AUTHORIZED_BY_CURRENT_REQUEST_MODEL_APPROVAL_SEPARATE"
+      }
+    ]
+  },
+  "subset": false
+}

@@ -1,0 +1,775 @@
+{
+  "cases": {
+    "baseline": {
+      "offset": 0,
+      "phase": [
+        0,
+        0
+      ],
+      "ratio": 1,
+      "theta": 0,
+      "width": 8
+    },
+    "blocks": [
+      {
+        "shape": "square",
+        "vertices": [
+          [
+            -8,
+            -8
+          ],
+          [
+            8,
+            -8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            -8,
+            8
+          ]
+        ]
+      },
+      {
+        "shape": "rectangle",
+        "vertices": [
+          [
+            -16,
+            -4
+          ],
+          [
+            16,
+            -4
+          ],
+          [
+            16,
+            4
+          ],
+          [
+            -16,
+            4
+          ]
+        ]
+      },
+      {
+        "shape": "triangle",
+        "vertices": [
+          [
+            -8,
+            -8
+          ],
+          [
+            8,
+            -8
+          ],
+          [
+            -8,
+            8
+          ]
+        ]
+      }
+    ],
+    "bridge_widths": [
+      1,
+      2,
+      4
+    ],
+    "counter_limits": [
+      560,
+      3360,
+      10000,
+      64
+    ],
+    "crop_depths": [
+      0,
+      0.5,
+      4,
+      12
+    ],
+    "l_counts": [
+      15,
+      16,
+      17
+    ],
+    "l_grid": {
+      "columns": 38,
+      "origin": [
+        24,
+        24
+      ],
+      "step": 24,
+      "width": 4
+    },
+    "narrow_widths": [
+      1,
+      1.5
+    ],
+    "near_collinear_offset": 0.5,
+    "perspective_k": [
+      -0.5,
+      0.5
+    ],
+    "schema_version": 1,
+    "source": "synthetic_gen_spec_Oyster_reviewed.md §5；全部为输入构造，不是算法结论",
+    "strong_ratios": [
+      3,
+      4
+    ],
+    "strong_rotations": [
+      0,
+      45
+    ],
+    "white_counts": [
+      127,
+      128,
+      129
+    ],
+    "white_grid": {
+      "columns": 58,
+      "origin": [
+        16,
+        16
+      ],
+      "side": 8,
+      "step": 16
+    },
+    "wrong_shift": [
+      20,
+      20
+    ]
+  },
+  "grid": {
+    "background": 0,
+    "canvas": [
+      960,
+      720
+    ],
+    "fill": "EVEN_ODD_BOUNDARY_INSIDE",
+    "foreground": 255,
+    "local": {
+      "offsets": [
+        -1,
+        -0.5,
+        0.5,
+        1
+      ],
+      "phases": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "ratios": [
+        1
+      ],
+      "rotations": [
+        0,
+        45,
+        90,
+        135
+      ],
+      "widths": [
+        2,
+        4,
+        8,
+        12
+      ]
+    },
+    "offsets": [
+      -1,
+      -0.5,
+      0,
+      0.5,
+      1
+    ],
+    "phases": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "pixel_centers": "INTEGER",
+    "ratios": [
+      1,
+      1.5,
+      2
+    ],
+    "rotations": [
+      0,
+      15,
+      30,
+      45,
+      60,
+      75,
+      90,
+      105,
+      120,
+      135,
+      150,
+      165,
+      180,
+      195,
+      210,
+      225,
+      240,
+      255,
+      270,
+      285,
+      300,
+      315,
+      330,
+      345
+    ],
+    "schema_version": 1,
+    "seed": 0,
+    "shear": {
+      "phases": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "rotations": [
+        0,
+        45,
+        90,
+        135
+      ],
+      "values": [
+        -0.5,
+        0.5
+      ],
+      "widths": [
+        2,
+        4,
+        8,
+        12
+      ]
+    },
+    "source": "error_budget.md §2；工具细则 synthetic_gen_spec_Oyster_reviewed.md §4",
+    "subsamples": 8,
+    "threshold": 127,
+    "widths": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      12
+    ]
+  },
+  "model": {
+    "pieces": [
+      {
+        "anchor": [
+          8,
+          8
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "id": "L0",
+        "instance_id": 1,
+        "outer": {
+          "id": "P0",
+          "vertex": 0
+        },
+        "placement": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 L0；D1–D4",
+        "type": "L",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            30
+          ],
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          72,
+          72
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "id": "L2",
+        "instance_id": 2,
+        "outer": {
+          "id": "P2",
+          "vertex": 0
+        },
+        "placement": [
+          [
+            -1,
+            0,
+            80
+          ],
+          [
+            0,
+            -1,
+            80
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 L2；D1–D4",
+        "type": "L",
+        "vertices": [
+          [
+            80,
+            80
+          ],
+          [
+            50,
+            80
+          ],
+          [
+            50,
+            72
+          ],
+          [
+            72,
+            72
+          ],
+          [
+            72,
+            50
+          ],
+          [
+            80,
+            50
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          8,
+          72
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "id": "L3",
+        "instance_id": 3,
+        "outer": {
+          "id": "P3",
+          "vertex": 0
+        },
+        "placement": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            80
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 L3；D1–D4",
+        "type": "L",
+        "vertices": [
+          [
+            0,
+            80
+          ],
+          [
+            30,
+            80
+          ],
+          [
+            30,
+            72
+          ],
+          [
+            8,
+            72
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            0,
+            50
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          72,
+          8
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "id": "M1",
+        "instance_id": 4,
+        "outer": {
+          "id": "P1",
+          "vertex": 1
+        },
+        "placement": [
+          [
+            1,
+            0,
+            66
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 M1；D7–D8",
+        "status": "CONDITIONAL_D7_D8",
+        "type": "M",
+        "vertices": [
+          [
+            66,
+            0
+          ],
+          [
+            80,
+            0
+          ],
+          [
+            80,
+            14
+          ],
+          [
+            72,
+            14
+          ],
+          [
+            72,
+            8
+          ],
+          [
+            66,
+            8
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          54,
+          4
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "id": "S1a",
+        "instance_id": 5,
+        "outer": null,
+        "placement": [
+          [
+            1,
+            0,
+            50
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 S1a；D7–D9",
+        "status": "CONDITIONAL_D9",
+        "type": "S",
+        "vertices": [
+          [
+            50,
+            0
+          ],
+          [
+            58,
+            0
+          ],
+          [
+            58,
+            8
+          ],
+          [
+            50,
+            8
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          76,
+          26
+        ],
+        "edge_ids": [
+          "e0",
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "id": "S1b",
+        "instance_id": 6,
+        "outer": null,
+        "placement": [
+          [
+            1,
+            0,
+            72
+          ],
+          [
+            0,
+            1,
+            22
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "source": "model_coordinates.md §3 S1b；D7–D9",
+        "status": "CONDITIONAL_D9",
+        "type": "S",
+        "vertices": [
+          [
+            72,
+            22
+          ],
+          [
+            80,
+            22
+          ],
+          [
+            80,
+            30
+          ],
+          [
+            72,
+            30
+          ]
+        ]
+      }
+    ],
+    "schema_version": 1,
+    "status": "PENDING_USER_CONFIRMATION",
+    "stroke_width": {
+      "source": "model_coordinates.md §1 D4",
+      "value": 8
+    },
+    "templates": [
+      {
+        "anchor": [
+          8,
+          8
+        ],
+        "anchor_vertex": 3,
+        "edge_lengths": [
+          30,
+          8,
+          22,
+          22,
+          8,
+          30
+        ],
+        "id": "L",
+        "outer_vertex": 0,
+        "source": "model_coordinates.md §2 D2–D4",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            30
+          ],
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          6,
+          8
+        ],
+        "anchor_vertex": 4,
+        "edge_lengths": [
+          14,
+          14,
+          8,
+          6,
+          6,
+          8
+        ],
+        "id": "M",
+        "outer_vertex": 1,
+        "source": "model_coordinates.md §2 D7–D8",
+        "status": "CONDITIONAL_D7_D8",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            6,
+            14
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "anchor": [
+          4,
+          4
+        ],
+        "anchor_vertex": null,
+        "edge_lengths": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "id": "S",
+        "outer_vertex": null,
+        "source": "model_coordinates.md §2 D9",
+        "status": "CONDITIONAL_D9",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      }
+    ],
+    "unit": "u"
+  }
+}

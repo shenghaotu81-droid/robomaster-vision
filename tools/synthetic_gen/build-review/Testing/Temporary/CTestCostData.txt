@@ -1,0 +1,8 @@
+model 1 0.0296505
+transforms 1 0.0268928
+grid 1 0.188808
+raster 1 0.0237596
+perturb 1 0.0252879
+cases 1 0.0390822
+workflow 1 0.625186
+---

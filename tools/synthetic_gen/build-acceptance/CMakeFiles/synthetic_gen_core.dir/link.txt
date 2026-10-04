@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsynthetic_gen_core.a CMakeFiles/synthetic_gen_core.dir/src/model.cpp.o CMakeFiles/synthetic_gen_core.dir/src/grid.cpp.o CMakeFiles/synthetic_gen_core.dir/src/transforms.cpp.o CMakeFiles/synthetic_gen_core.dir/src/perturb.cpp.o CMakeFiles/synthetic_gen_core.dir/src/raster.cpp.o CMakeFiles/synthetic_gen_core.dir/src/cases.cpp.o CMakeFiles/synthetic_gen_core.dir/src/records.cpp.o CMakeFiles/synthetic_gen_core.dir/src/verify.cpp.o
+/usr/bin/ranlib libsynthetic_gen_core.a
